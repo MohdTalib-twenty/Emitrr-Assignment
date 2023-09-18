@@ -1,0 +1,37 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+   
+}
+.result-card{
+   width: 500px;
+   border: 2px solid black;
+   padding: 50px;
+}
+.form-container input{
+    width:  600px;
+}
+.form-container select{
+    width: 600px;
+}
+.content-quiz{
+    margin-top: 200px;
+}
+.home-form-container{
+    margin-top: 200px;
+    width: 500px;
+}
+.home-form-container input,select{
+    width: 400px;
+}
+@media (max-width : 500px) {
+    .form-container input{
+        width: fit-content !important;
+    }
+    .home-form-container input,select{
+        width: fit-content;
+    }
+}
