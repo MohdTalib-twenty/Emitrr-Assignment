@@ -5,17 +5,16 @@ To run a MERN app locally, you will need to have Node.js and MongoDB installed o
 git clone https://github.com/MohdTalib-twenty/Emitrr-Assignment.git
 
 # Navigate to the root directory of the repository
-cd your-mern-app
+cd folder-name
 
 # Install the dependencies
 npm install
 
 # Start the server
-npm run dev
-
+npm run index.js
 # Start the client
 cd client
-npm run dev
+npm start
 The server will be running on port 8000 and the client will be running on port 3000. You can access the app in your browser at http://localhost:3000.
 
 Deploying a MERN app to production
