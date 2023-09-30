@@ -2,7 +2,7 @@ Running a MERN app locally
 To run a MERN app locally, you will need to have Node.js and MongoDB installed on your machine.
 
 # Clone or download the repository
-git clone https://github.com/your-username/your-mern-app.git
+git clone [https://github.com/your-username/your-mern-app.git](https://github.com/MohdTalib-twenty/Emitrr-Assignment.git)
 
 # Navigate to the root directory of the repository
 cd your-mern-app
